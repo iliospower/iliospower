@@ -1453,7 +1453,7 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
 
 h1, .h1 {
   font-size: 30px;
-  line-height: 42px;
+  line-height: 3px;
 }
 
 h2, .h2 {
@@ -2151,6 +2151,13 @@ textarea {
 #fh5co-hero .fh5co-hero-wrap .fh5co-hero-intro a:hover {
   color: white;
   border-bottom: 1px solid white;
+}
+
+.font-new {
+  font-size: 30px;
+  font-weight: normal;
+  color: #ffffff;
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.08);
 }
 #fh5co-hero .fh5co-hero-wrap .fh5co-hero-intro > h1 {
   font-size: 40px;
