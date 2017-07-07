@@ -362,7 +362,7 @@ h1, h2, h3, h4, h5, h6 {
   
 }
 #fh5co-home, #fh5co-home .text-wrap {
-  height: 700px;
+  height: 750px;
 }
 #fh5co-home .text-wrap {
   display: table;
@@ -522,6 +522,46 @@ h1, h2, h3, h4, h5, h6 {
 #fh5co-intro .fh5co-block:hover .btn:hover, #fh5co-intro .fh5co-block:focus .btn:hover {
   background: #ffd619 !important;
   border: 2px solid #ffd619 !important;
+}
+
+.btn1-video{
+  display: block;
+  font-size: 30px;
+  height: 50px;
+  width: 50px;
+  margin: 0 auto;
+  border: 2px solid #fff;
+  line-height: 0px;
+  display: table;
+  text-align: center;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  border-radius: 50%;
+
+}
+.btn1-video i{
+  position: relative;
+  display: table-cell;
+  vertical-align: middle;
+  margin: 0;
+  padding: 0;
+  right: -2px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.btn1-video:hover, .btn1-video:focus, .btn1-video:active {
+  text-decoration: none;
+}
+
+.btn1-video:hover , .btn1-video:focus {
+  -webkit-transform: scale(1.1);
+  -moz-transform: scale(1.1);
+  -ms-transform: scale(1.1);
+  -o-transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .watch-video {
@@ -1220,6 +1260,62 @@ h1, h2, h3, h4, h5, h6 {
 }
 .btn.btn-default:hover, .btn.btn-default:focus, .btn.btn-default:active {
   border-color: transparent;
+}
+
+
+.social1 {
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+  position: relative;
+  width: 100%;
+}
+.social1 li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: inline-block;
+}
+.social1 li a {
+  font-size: 16px;
+  display: table;
+  width: 40px;
+  height: 40px;
+  margin: 0 4px;
+}
+.social1 li a i {
+  display: table-cell;
+  vertical-align: middle;
+}
+.social1 li a:hover, .social1 li a:active, .social1 li a:focus {
+  text-decoration: none;
+  border-bottom: none;
+}
+.social1 li a.social1-box {
+  background: #fff;
+}
+.social1 li a.social1-circle {
+  
+  color: #fff;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 50%;
+  border-radius: 100%;
+}
+.social1 li a:hover {
+  background: #ffd619 !important;
+}
+.social1.social1-box a {
+  background: #fff;
+  
+}
+.social1.social1-circle a {
+  
+  color: #fff;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  border-radius: 100%;
 }
 
 .social {
