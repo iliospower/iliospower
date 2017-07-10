@@ -1,4 +1,4 @@
-
+ 
 <!DOCTYPE html>
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
@@ -161,6 +161,27 @@
 	.bb li a{
 		border-bottom: none;
 	}
+	.dropdown-content {
+    display: none;
+    position: absolute;
+  
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: ;
+
+}
+	.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content li {
+	list-style-type: none;
+}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
 
 	</style>
 	<!-- End demo purposes only -->
@@ -168,10 +189,12 @@
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 	<!-- FOR IE9 below -->
 	<!--[if lt IE 9]>
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
+
 
 	</head>
 	<body>
@@ -188,14 +211,20 @@
 		        <div id="navbar" class="navbar-collapse collapse">
 		          <ul class="nav navbar-nav navbar-right bb">
 		            <li class="active"><a href="#" data-nav-section="home"><span>Home</span></a></li>
-			    <li><a href="#" data-nav-section="three"><span>Why go Solar?</span></a></li>
-		            <li><a href="#" data-nav-section="work"><span>Projects</span></a></li>
+		            <li class="dropdown"><a href="#">Why go solar?</a>   
+					  <div class="dropdown-content"><ul>
+					    <li><a href="#" data-nav-section="work"><span>Projects</span></a></li>
 		            <li><a href="#" data-nav-section="testimonials"><span>Testimonials</span></a></li>
 		            <li><a href="#" data-nav-section="services"><span>Services</span></a></li>
+		            </ul>
+					  </div>
+					 </li>	
+		            <!--<li><a href="#" data-nav-section="work"><span>Projects</span></a></li>
+		            <li><a href="#" data-nav-section="testimonials"><span>Testimonials</span></a></li>
+		            <li><a href="#" data-nav-section="services"><span>Services</span></a></li>-->
 		            <li><a href="#" data-nav-section="about"><span>About</span></a></li>
-		            <li><a href="#" data-nav-section="contact"><span>Contact</span></a></li>
-		            
-							<li class="fh5co-special" style="margin-top:-5px;"><a href="contact.html">SOLARMEN</a></li>
+		            <li><a href="#" data-nav-section="contact"><span>Contact</span></a></li>		            
+					<li class="fh5co-special" style="margin-top: -5px;"><a href="contact.html" class="solarmen" style="color: #ffd619"> SOLARMEN</a></li>
 		          </ul>
 		        </div>
 			    </nav>
@@ -247,7 +276,7 @@
 		<div class="slant"></div>
 	</section>
 
-	<section id="fh5co-intro" data-section="three">
+	<section id="fh5co-intro">
 		<div class="container">
 			<div class="row row-bottom-padded-lg">
 				<div class="fh5co-block to-animate" style="background-image: url(images/img_7.jpg);">
@@ -720,12 +749,31 @@
 			$('.option-toggle').click(function() {
 				$('#colour-variations').toggleClass('sleep');
 			});
+
+			
+
 		});
+		
 	</script>
 	<!-- End demo purposes only -->
 
 	<!-- Main JS (Do not remove) -->
 	<script src="js/main.js"></script>
+	<script type="text/javascript">
+	 
+	</script>
+		<style type="text/css">
+		.solarmen {
+			color: #ffd619;
+		background-color: #fff;
+		
+	}
+	.solarmen:hover {
+		background-color: red;
+	}
+	 
+	</style>
+
 
 	</body>
 </html>
