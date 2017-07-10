@@ -222,14 +222,14 @@ h1, h2, h3, h4, h5, h6 {
     -o-transition: 0.3s;
     transition: 0.3s;
   }
-  #fh5co-header #navbar li a:hover {
+   #fh5co-header #navbar li a:hover {
     color: #ffd619 !important;
   }
   #fh5co-header #navbar li a span:before {
-    background: transparent !important;
+    background: white !important;
   }
   #fh5co-header #navbar li.active a {
-    background: transparent;
+    background: white;
     background: none;
     color: #ffd619 !important;
   }
@@ -245,7 +245,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 #fh5co-header #navbar li a {
   font-family: "themify", sans-serif;
-  color: rgba(255, 255, 255, 0.5);
+  color: white;
   position: relative;
   font-size: 19px;
   font-weight: 300;
@@ -258,10 +258,10 @@ h1, h2, h3, h4, h5, h6 {
 
 #fh5co-header #navbar li a:hover {
   color: #fff;
-}
+} 
 
 #fh5co-header #navbar li.active a {
-  background: transparent;
+  background: white;
   background: none;
   color: #fff;
 }
