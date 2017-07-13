@@ -346,6 +346,7 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   
   color: #fff;
+
   overflow: hidden;
 }
 #fh5co-home .gradient {
@@ -411,7 +412,7 @@ h1, h2, h3, h4, h5, h6 {
   content: "";
   z-index: 3;
   display: inline-block;
-  height: 70px;
+  height: 160px;
   bottom: 0;
   margin-bottom: -35px;
   padding: 0;
