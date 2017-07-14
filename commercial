@@ -389,7 +389,7 @@ h1 {
 						<h6>Residential</h6>
 						<h3>Everybody has the responsibility to not only save their earnings but also save the earth.</h3>
 						<p>Making electricity on your roof will ease the pressure on fossil fuels and also slash your power bills by 30%.</p>
-						<p><a href="residential.html" class="btn btn-primary">Read More</a></p>
+						<!-- <p><a href="#" class="btn btn-primary">Calculate Savings</a></p> -->
 					</div>
 				</div>
 			</div>
