@@ -293,7 +293,7 @@ h1 {
 					  </div>
 					 </li>	
 					 <li><a href="#" data-nav-section="work"><span>Projects</span></a></li>
-					 <li><a href="OM.html"><span>O &amp M</span></a></li>	
+					 <li><a href="OM.html" class="external"><span>O &amp M</span></a></li>	
 		            <li><a href="#" data-nav-section="contact"><span>Contact</span></a></li>		            
 					<!-- <li class="fh5co-special" style="margin-top: -5px;"><a href="http://solarmen.com" class="solarmen" style="color: orange"> SOLARMEN</a></li> -->
 		          </ul>
@@ -835,6 +835,8 @@ h1 {
 			
 
 		});
+
+		$(document).singlePageNav({filter: ':not(.external)'});
 		
 	</script>
 	<!-- End demo purposes only -->
